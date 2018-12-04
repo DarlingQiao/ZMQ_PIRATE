@@ -1,0 +1,11 @@
+LIBRARY zmq_mdp_server
+	EXPORTS 
+	server_new @ 1
+	server_destroy @ 2
+    server_setliveness @ 3
+    server_setheartbeat @ 4
+    server_setreconnect @ 5
+    server_recv @ 6
+    server_reply @ 7
+
+	
